@@ -16,8 +16,3 @@ def caesar_cipher(string, shift)
   # join the array back together using .pack('c*')
   shift_array.pack('c*')
 end
-
-# tests
-puts caesar_cipher("What a string!", 5)
-puts caesar_cipher("dCode Caesar", 3)
-puts caesar_cipher("Omae wa mou shindeiru. -NANI!?!!", 21)
